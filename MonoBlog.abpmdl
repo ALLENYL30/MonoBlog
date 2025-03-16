@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MonoBlog.Application": {
+      "path": "src/MonoBlog.Application/MonoBlog.Application.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.Application.Tests": {
+      "path": "test/MonoBlog.Application.Tests/MonoBlog.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.Domain.Shared": {
+      "path": "src/MonoBlog.Domain.Shared/MonoBlog.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.Application.Contracts": {
+      "path": "src/MonoBlog.Application.Contracts/MonoBlog.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.HttpApi": {
+      "path": "src/MonoBlog.HttpApi/MonoBlog.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.HttpApi.Client": {
+      "path": "src/MonoBlog.HttpApi.Client/MonoBlog.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.Web": {
+      "path": "src/MonoBlog.Web/MonoBlog.Web.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.Web.Tests": {
+      "path": "test/MonoBlog.Web.Tests/MonoBlog.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.EntityFrameworkCore.Tests": {
+      "path": "test/MonoBlog.EntityFrameworkCore.Tests/MonoBlog.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.EntityFrameworkCore": {
+      "path": "src/MonoBlog.EntityFrameworkCore/MonoBlog.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.TestBase": {
+      "path": "test/MonoBlog.TestBase/MonoBlog.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.Domain.Tests": {
+      "path": "test/MonoBlog.Domain.Tests/MonoBlog.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MonoBlog.HttpApi.Client.ConsoleTestApp/MonoBlog.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "MonoBlog.DbMigrator": {
+      "path": "src/MonoBlog.DbMigrator/MonoBlog.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "MonoBlog.Domain": {
+      "path": "src/MonoBlog.Domain/MonoBlog.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
