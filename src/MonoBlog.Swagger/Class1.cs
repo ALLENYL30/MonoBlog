@@ -1,6 +1,7 @@
-﻿namespace MonoBlog.Blog.ToolKits
+﻿namespace MonoBlog.Swagger
 {
     public class Class1
     {
+
     }
 }
