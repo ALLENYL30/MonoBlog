@@ -1,6 +1,6 @@
 using AutoMapper;
 
-namespace MonoBlog.Web;
+namespace MonoBlog.HttpApi.Client;
 
 public class MonoBlogWebAutoMapperProfile : Profile
 {

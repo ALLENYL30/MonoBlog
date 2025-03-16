@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace MonoBlog.Web;
+namespace MonoBlog.HttpApi.Client;
 
 public class Program
 {
