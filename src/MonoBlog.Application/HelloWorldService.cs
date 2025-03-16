@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonoBlog
 {
-    public class HelloWorldImpl : MonoBlogAppService, IHelloWorldService
+    public class HelloWorldService : MonoBlogAppService, IHelloWorldService
     {
         public string HelloWorld()
         {

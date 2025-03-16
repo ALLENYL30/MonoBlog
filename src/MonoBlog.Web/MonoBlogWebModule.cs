@@ -53,7 +53,8 @@ namespace MonoBlog.HttpApi.Client;
     typeof(AbpTenantManagementWebModule),
     typeof(AbpFeatureManagementWebModule),
     typeof(AbpSwashbuckleModule),
-    typeof(AbpAspNetCoreSerilogModule)
+    typeof(AbpAspNetCoreSerilogModule),
+    typeof(AbpAspNetCoreMvcModule)
 )]
 public class MonoBlogWebModule : AbpModule
 {

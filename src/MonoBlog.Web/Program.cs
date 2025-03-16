@@ -48,6 +48,18 @@ public class Program
         catch (Exception ex)
         {
             Log.Fatal(ex, "Host terminated unexpectedly!");
+
+            // Add these lines to get more detailed error information
+            Console.WriteLine("ERROR DETAILS:");
+            Console.WriteLine(ex.ToString());
+
+            // If there's an inner exception, print that too
+            if (ex.InnerException != null)
+            {
+                Console.WriteLine("INNER EXCEPTION:");
+                Console.WriteLine(ex.InnerException.ToString());
+            }
+
             return 1;
         }
         finally
